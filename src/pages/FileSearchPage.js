@@ -21,7 +21,7 @@ function FileSearchPage() {
   const styles = {
     container: {
       backgroundColor: 'white',
-      color: '#003366', // Dark blue color for text
+      color: '#003366', 
       padding: '20px',
       borderRadius: '5px',
       maxWidth: '600px',
@@ -35,27 +35,27 @@ function FileSearchPage() {
       width: '100%',
       padding: '10px',
       margin: '10px 0',
-      border: '1px solid #003366', // Border color
+      border: '1px solid #003366',  
       borderRadius: '4px',
     },
     button: {
       width: '100%',
       padding: '10px',
       margin: '10px 0',
-      backgroundColor: '#003366', // Blue background
+      backgroundColor: '#003366',  
       color: 'white',
       border: 'none',
       borderRadius: '4px',
       cursor: 'pointer',
     },
     buttonHover: {
-      backgroundColor: '#00509e', // Darker blue on hover
+      backgroundColor: '#00509e', 
     },
     results: {
       marginTop: '20px',
     },
     fileItem: {
-      backgroundColor: '#f0f8ff', // Light blue background for file items
+      backgroundColor: '#f0f8ff', 
       padding: '10px',
       borderRadius: '5px',
       marginBottom: '10px',

@@ -10,7 +10,7 @@ function SignupPage() {
 
   const handleSignup = (e) => {
     e.preventDefault();
-    // Typically, you'd send data to the backend here to create the user
+    
 
     // Show success message using SweetAlert2
     Swal.fire({
@@ -50,7 +50,7 @@ function SignupPage() {
       margin: '5px ',
       borderRadius: '4px',
       border: '1px solid #ccc',
-      fontSize: '16px', // Increase font size for better readability
+      fontSize: '16px',  
     },
     button: {
       padding: '10px 20px',
@@ -60,7 +60,7 @@ function SignupPage() {
       color: '#fff',
       cursor: 'pointer',
       transition: 'background-color 0.3s',
-      fontSize: '16px', // Consistent font size
+      fontSize: '16px',  
     },
     buttonHover: {
       backgroundColor: '#0056b3',
@@ -68,7 +68,7 @@ function SignupPage() {
     heading: {
       marginBottom: '20px',
       color: '#003366',
-      fontSize: '24px', // Increase heading font size
+      fontSize: '24px',  
     },
     link: {
       color: '#007bff',
@@ -82,7 +82,7 @@ function SignupPage() {
   return (
     <div style={styles.container}>
       <h2 style={styles.heading}>User Signup</h2>
-      <img src={require('../image/signup.gif')} alt="Signup" style={styles.gif} /> {/* Path to your GIF */}
+      <img src={require('../image/signup.gif')} alt="Signup" style={styles.gif} />  
       
       <form onSubmit={handleSignup} style={{ width: '100%' }}>
         <input

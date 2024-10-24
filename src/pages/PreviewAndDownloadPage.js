@@ -18,7 +18,7 @@ function PreviewAndDownloadPage({ files }) {
   const styles = {
     container: {
       backgroundColor: 'white',
-      color: '#003366', // Dark blue color for text
+      color: '#003366',  
       padding: '20px',
       borderRadius: '5px',
       maxWidth: '600px',
@@ -29,7 +29,7 @@ function PreviewAndDownloadPage({ files }) {
       textAlign: 'center',
     },
     fileItem: {
-      backgroundColor: '#f0f8ff', // Light blue background for file items
+      backgroundColor: '#f0f8ff',  
       padding: '10px',
       borderRadius: '5px',
       marginBottom: '10px',
@@ -37,14 +37,14 @@ function PreviewAndDownloadPage({ files }) {
     button: {
       padding: '10px',
       margin: '5px',
-      backgroundColor: '#003366', // Blue background for buttons
+      backgroundColor: '#003366',  
       color: 'white',
       border: 'none',
       borderRadius: '4px',
       cursor: 'pointer',
     },
     buttonHover: {
-      backgroundColor: '#00509e', // Darker blue on hover
+      backgroundColor: '#00509e',  
     },
     noFilesText: {
       textAlign: 'center',

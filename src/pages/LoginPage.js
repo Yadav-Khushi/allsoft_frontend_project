@@ -7,12 +7,12 @@ import Swal from 'sweetalert2'; // SweetAlert2 for notifications
 function LoginPage() {
   const [mobileNumber, setMobileNumber] = useState('');
   const [otp, setOtp] = useState('');
-  const navigate = useNavigate(); // Use the useNavigate hook for redirection
+  const navigate = useNavigate();  
 
   // Handle OTP sending
   const handleSendOTP = async () => {
     try {
-      await generateOTP(mobileNumber); // Call the OTP generation API
+      await generateOTP(mobileNumber);  
       Swal.fire({
         icon: 'success',
         title: 'OTP Sent',
@@ -32,8 +32,8 @@ function LoginPage() {
 // Handle OTP validation (login)
 const handleLogin = async () => {
   try {
-    const response = await validateOTP(mobileNumber, otp); // Call the OTP validation API
-    console.log("Full response from validateOTP:", response); // Log the entire response
+    const response = await validateOTP(mobileNumber, otp);  
+    console.log("Full response from validateOTP:", response);  
 
     if (response.status === false) {
       // Show error alert for invalid OTP

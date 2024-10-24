@@ -49,3 +49,8 @@ bash
  
 npm start
 Open http://localhost:3000 to view the app in the browser.
+
+nagivation in react install
+bash
+
+npm install react-router-dom
